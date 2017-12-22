@@ -1,0 +1,92 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.study</groupId>
+  <artifactId>study</artifactId>
+  <packaging>war</packaging>
+  <version>1.0.0-SNAPSHOT</version>
+  <name>study Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <org.springframework.version>3.2.14.RELEASE</org.springframework.version>
+  </properties>
+
+  <dependencies>
+
+    <!-- spring framework -->
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-context</artifactId>
+      <version>${org.springframework.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-web</artifactId>
+      <version>${org.springframework.version}</version>
+    </dependency>
+
+    <!-- asm -->
+    <dependency>
+      <groupId>asm</groupId>
+      <artifactId>asm</artifactId>
+      <version>3.3.1</version>
+    </dependency>
+
+    <!-- guava -->
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>21.0</version>
+    </dependency>
+
+    <!-- jetty -->
+    <dependency>
+      <groupId>org.mortbay.jetty</groupId>
+      <artifactId>jetty</artifactId>
+      <version>6.1.26</version>
+    </dependency>
+
+    <!-- zuul -->
+    <dependency>
+      <groupId>com.netflix.zuul</groupId>
+      <artifactId>zuul-netflix</artifactId>
+      <version>1.3.0</version>
+    </dependency>
+
+    <!-- eureka -->
+    <dependency>
+      <groupId>com.netflix.eureka</groupId>
+      <artifactId>eureka-core</artifactId>
+      <version>1.6.2</version>
+    </dependency>
+
+    <!-- ribbon-eureka -->
+    <dependency>
+      <groupId>com.netflix.ribbon</groupId>
+      <artifactId>ribbon-eureka</artifactId>
+      <version>2.2.2</version>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <finalName>study</finalName>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.6.1</version>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <groupId>org.eclipse.jetty</groupId>
+        <artifactId>jetty-maven-plugin</artifactId>
+        <version>9.4.5.v20170502</version>
+      </plugin>
+    </plugins>
+  </build>
+</project>
