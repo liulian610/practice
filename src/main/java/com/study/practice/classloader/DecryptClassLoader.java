@@ -1,4 +1,4 @@
-package com.study.classloader;
+package com.study.practice.classloader;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;

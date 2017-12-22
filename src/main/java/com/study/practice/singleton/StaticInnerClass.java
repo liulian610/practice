@@ -1,4 +1,4 @@
-package com.study.singleton;
+package com.study.practice.singleton;
 
 /**
  * 用静态内部类的方式实现单例模式.

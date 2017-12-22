@@ -1,4 +1,4 @@
-package com.study.classloader;
+package com.study.practice.classloader;
 
 import com.google.common.base.Splitter;
 import com.google.common.collect.Iterables;

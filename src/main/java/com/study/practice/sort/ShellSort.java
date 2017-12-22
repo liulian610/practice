@@ -1,4 +1,4 @@
-package com.study.sort;
+package com.study.practice.sort;
 
 /**
  * 希尔排序(又名:缩小增量排序,是直接插入排序算法的一种更高效的改进版本).

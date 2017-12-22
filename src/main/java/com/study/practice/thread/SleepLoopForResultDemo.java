@@ -1,4 +1,4 @@
-package com.study.thread;
+package com.study.practice.thread;
 
 /**
  * Created by dingdangss on 17/5/22.

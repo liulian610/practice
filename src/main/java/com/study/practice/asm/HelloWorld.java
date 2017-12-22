@@ -1,4 +1,4 @@
-package com.study.asm;
+package com.study.practice.asm;
 
 /**
  * Created by dingdangss on 17/5/11.

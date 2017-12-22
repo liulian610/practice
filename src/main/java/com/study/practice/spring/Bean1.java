@@ -1,4 +1,4 @@
-package com.study.spring;
+package com.study.practice.spring;
 
 /**
  * Created by dingdangss on 17/5/11.

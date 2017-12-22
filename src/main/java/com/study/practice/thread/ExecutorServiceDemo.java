@@ -1,4 +1,4 @@
-package com.study.thread;
+package com.study.practice.thread;
 
 import java.lang.reflect.Field;
 import java.util.concurrent.ArrayBlockingQueue;

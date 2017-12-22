@@ -1,4 +1,4 @@
-package com.study.reference;
+package com.study.practice.reference;
 
 /**
  * Created by dingdangss on 17/5/23.

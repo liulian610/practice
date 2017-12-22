@@ -1,4 +1,4 @@
-package com.study.concurrent;
+package com.study.practice.concurrent;
 
 /**
  * Created by dingdangss on 17/5/16.

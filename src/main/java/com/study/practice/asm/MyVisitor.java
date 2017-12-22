@@ -1,4 +1,4 @@
-package com.study.asm;
+package com.study.practice.asm;
 
 import org.objectweb.asm.ClassAdapter;
 import org.objectweb.asm.ClassVisitor;

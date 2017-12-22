@@ -1,4 +1,4 @@
-package com.study.thread;
+package com.study.practice.thread;
 
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;

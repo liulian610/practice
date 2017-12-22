@@ -1,4 +1,4 @@
-package com.study.threadlocal;
+package com.study.practice.threadlocal;
 
 /**
  * Created by dingdangss on 17/5/24.

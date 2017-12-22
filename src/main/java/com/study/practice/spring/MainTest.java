@@ -1,4 +1,4 @@
-package com.study.spring;
+package com.study.practice.spring;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.FileSystemXmlApplicationContext;

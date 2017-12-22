@@ -1,4 +1,4 @@
-package com.study.concurrent;
+package com.study.practice.concurrent;
 
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
